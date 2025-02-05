@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Anton", serif;
+}
+.nav-bar{
+    padding: 1rem 5rem;
+    font-family: "Moul", serif;
+    height: 3.5rem;
+    background-color: rgb(181, 0, 0);
+}
+.nav-bar a {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav-bar a:hover{
+    height: 3rem;
+    background-size: contain;
+    background-color: black;
+    transition: 0.5s ease;
+}
+#a,#b,#c,#d{
+    margin-right: 1rem;
+}
+table{
+    margin: 30px;
+    width: 90%;
+    border-collapse: collapse;
+}
+table,td{
+    border-radius: 10px;
+    border: 3px solid white;
+}
+#td1,#td2,#td3,#td4,#td5,#td6,#td7,#td8,#td9,#td10,#td11,#td12,#td13{
+    background-size: cover;
+    height: 250px;
+    transition: 1s all;
+}
+
+#td1{
+    background-image: url('asset/Akatsuki.jpg');
+}
+#td2{
+    background-image: url('asset/download.jpg');   
+}
+#td3{
+    background-image: url('asset/download\ \(1\).jpg');   
+}
+#td4{
+    background-image: url('asset/download\ \(2\).jpg');   
+}
+#td5{
+    background-image: url('asset/pain@akatsuki.jpg');   
+}
+#td6{
+    background-image: url('asset/download\ \(4\).jpg');   
+}
+#td7{
+    background-image: url('asset/Fond\ d’écran\ Akatsuki.jpg');   
+}
+#td10{
+    background-image: url('asset/Uchiha\ clan.jpg');   
+}
+#td12{
+    background-image: url('asset/Naruto×Pain\ fight.jpg');   
+}
+
+#td1:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent),
+      url(./asset/Akatsuki.jpg);
+}
+#td5:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent),
+      url(./asset/pain@akatsuki.jpg);
+}
+#td4:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), transparent),
+      url(./asset/download\ \(2\).jpg);
+}
+#td10:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent),
+    url(asset/Uchiha\ clan.jpg);
+}
+
+#td2:hover{
+    transition: 1s all;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    
+}
+#td3:hover{
+    transition: 1s all;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+
+} 
+#td6:hover{
+    transition: 1s all;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+ 
+}
+#td7:hover{
+    transition: 1s all;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+#td12:hover{
+    transition: 1s all;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+#row1,#row2{
+    text-align: center;
+    color: white;
+    border: 3px solid white;
+    background-color: rgb(181, 0, 0);
+}
+#main-row{
+    transition: 1s all;
+    height: 2rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(203, 83, 3);
+}
+#main-row:hover{
+    transition: 1s all;
+    background-color: rgb(188, 191, 26);
+}
+#row{
+    height: 2rem;
+    font-size: 0.9rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 232);
+}
+.singleTd:hover{
+    transition: 0.5s all;
+    background-color: rgb(206, 206, 206);
+}
+#ep{
+    color: white;
+    margin-left: 5.5rem;
+    font-size: 1rem;
+    font-weight: 100;
+    background-color: rgb(255, 166, 0);
+    width: fit-content;
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+}
+hr{
+    margin-inline: 90px;
+}
+footer p{
+    margin-top: 10rem;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(181, 0, 0);
+}
